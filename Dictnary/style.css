@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-wrap: wrap;
+}
+
+.con {
+    width: 80%;
+    margin: auto;
+}
+
+.form {
+    margin: 20px auto;
+    /* margin-top: 10%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inp {
+    width: 80%;
+    padding: 7px 10px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.btn {
+    padding: 7px 10px;
+    border: 2px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.partOfSpeech {
+    text-transform: capitalize;
+    color: rgb(76, 76, 76);
+}
+
+.partOfSpeech {
+    margin: 15px 30px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+ol {
+    margin: 10px 0px 20px 0px;
+}
+
+.error {
+    text-align: center;
+    color: crimson;
+}

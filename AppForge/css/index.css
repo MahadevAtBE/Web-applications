@@ -1,0 +1,94 @@
+:root {
+    --prim-color:
+        --sec-color:coral;
+    --whit-text: white;
+    --black: black;
+    --background-color: grey;
+    --first: #E63946;
+    --second: #F1FAEE;
+    --third: #A8DADC;
+    --forth: #457B9D;
+    --fifth: #1D3557;
+}
+
+.headline {
+    height: 250px;
+    width: 60%;
+    position: absolute;
+    left: 19.5%;
+    top: 30%;
+}
+
+.subh {
+    text-decoration: underline;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main_heading {
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 5px 5px 20px var(--forth);
+}
+
+.sub_heading {
+    font-size: 20px;
+    margin: 10px 15px;
+}
+
+.login {
+    height: 30px;
+    width: 60px;
+    border: 1px solid var(--black);
+    position: relative;
+    left: 250px;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.platform-heading {
+    height: 35ps;
+    line-height: 35px;
+    margin-top: 70px;
+    position: relative;
+    left: 70px;
+    text-decoration: underline wavy;
+    text-shadow: 3px 3px 10px gray;
+}
+
+.platforms {
+    margin-top: 30px;
+}
+
+.platform {
+    border: 3px solid var(--black);
+    border-radius: 15px;
+    margin: 50px 50px;
+    padding: 10px 10px;
+    transition: 0.2s ease-in-out all;
+}
+.platform:hover{
+    box-shadow: 10px 10px 10px gray;
+}
+
+.platform h1 {
+    text-decoration: underline;
+    position: relative;
+    left: 50px;
+}
+
+.platform img {
+    position: relative;
+    left: 50px;
+}
+
+.platform button {
+    position: relative;
+    left: 500px;
+    padding: 7px 15px;
+}
+
+.start-btn {
+    margin: 0px 15px;
+}

@@ -1,0 +1,78 @@
+:root{
+    --first: #E63946;
+    --second: #F1FAEE;
+    --third:#A8DADC;
+    --forth:#457B9D;
+    --fifth:#1D3557;
+    --black:black;
+    --white:#fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(back.jpg);
+    background-size: 100% 740px;
+}
+
+/* login and not a member */
+h1,p{
+    color: var(--black);
+    text-decoration: underline;
+}
+
+/* main containar */
+.contain{
+    height: 500px;
+    width: 400px;
+    /* width: 25rem; */
+    background-image: linear-gradient(var(--first),var(--third));
+    text-align: center;
+    margin-top: 5rem;
+    border: 3px solid var(--black);
+    border-radius: 15px;
+}
+
+/* login text */
+h1{
+    margin-top: 100px;
+}
+
+.user{
+    height: 30px;
+    width: 15rem;
+    border: none;
+    margin: 10px;
+    border: 3px solid var(--black);
+    border-radius: 15px;
+    /* background-color: black; */
+    /* color: var(--white); */
+}
+
+/* forgot password */
+a{  
+    text-decoration:none;
+    font-size: 17px;
+    color: white;
+}
+
+/* login button */
+button{
+    border: 2px solid var(--black);
+    height: 30px;
+    width: 10rem;
+    /* background-color: black; */
+    border-radius: 25px;
+    margin: 10px;
+    /* color: white; */
+}
+button:hover{
+    background-color: var(--forth);
+    color: var(--white);
+    box-shadow: 5px 5px 20px var(--forth);
+}
+
