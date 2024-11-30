@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+
+    <!-- font-awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- css start here  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Weather app</h1>
+            <div class="form">
+                <input type="text" placeholder="City" autofocus class="inp">
+                <span class="btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+            </div>
+            <span class="weatherImg">
+
+                <i class="fa-solid fa-sun"></i>
+            </span>
+            <div class="city">
+                <h2 class="temp">00°C</h2>
+                <h2 class="city_name">City Name</h2>
+            </div>
+            <div class="info_div">
+                <div class="info">
+                    <i class="fa-solid fa-water weatherImg2"></i>
+                    <div class="text">
+                        <p class="Humidity">00%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <i class="fa-solid fa-wind weatherImg2"></i>
+                    <div class="text">
+                        <p class="windSpeed">00 km/h</p>
+                        <p>Wind Spead</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- js stsrt here  -->
+    <script src="script.js"></script>
+</body>
+
+</html>
